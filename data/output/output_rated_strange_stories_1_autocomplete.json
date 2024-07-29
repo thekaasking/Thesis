@@ -1,0 +1,66 @@
+{
+    "strange_stories_1_autocomplete": {
+        "614c5dfe-462b-5cb7-abb7-0cf5d139750b": {
+            "with_image": {
+                "0": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "1": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "2": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "3": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "4": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "5": {
+                    "score_rater_1": "0",
+                    "score_rater_2": "0"
+                },
+                "6": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                }
+            },
+            "without_image": {
+                "0": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "1": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "2": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "3": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "4": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                },
+                "5": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "1"
+                },
+                "6": {
+                    "score_rater_1": "2",
+                    "score_rater_2": "2"
+                }
+            }
+        }
+    }
+}

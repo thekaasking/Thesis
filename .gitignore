@@ -1,0 +1,16 @@
+.venv/
+*.env
+*__pycache__/
+*.pyc
+app.log
+
+test_results_recursive_mindreading_1.json
+test_results_recursive_mindreading_2.json
+test_results_recursive_mindreading_1_filtered_intentionality.json
+test_results_recursive_mindreading_2_filtered_intentionality.json
+
+test_collection_RM_1_all.yaml
+test_collection_RM_2_all.yaml
+
+test_collection_RM_1_intentionality.yaml
+test_collection_RM_2_intentionality.yaml

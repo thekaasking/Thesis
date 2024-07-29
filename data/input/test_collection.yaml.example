@@ -1,0 +1,46 @@
+test_collection_1:
+  description: "Sample test collection description"
+  tests:
+    # Test 1
+    - sys_msg: "System message for the test"  # System message to be displayed
+      model: "Model name (e.g., gpt-4o)"  # Model name used for the test
+      language: "Language of test and questions" # E.g. "en" or "nl"
+      test_name: "Name of the test"  # Test name for identification
+      test_description: "Sample test description" # Test description
+      test_answer_type: "Type of answers (e.g., open, multiple-choice)"  # Expected answer type
+      test_images_folder: "Folder where images are stored"  # Directory for image files
+      questions:
+        - question: "Text of the question"  # The question text. REQUIRED.
+          question_type: "Type of question (e.g., control, justification)"  # The type of the question. REQUIRED.
+          answer_options: "List of answer options (if any), presenting the options to the model"  # List of answer options. REQUIRED.
+          answer_instructions: "The instructions for answering the question"  # Instructions for answering the question. If Empty, the default is used for the answer_type.
+          possible_answers: "List of possible answers (if any)"  # (OPTIONAL) List of possible answers. Only for multiple-choice questions. If empty, the default is used (A,B,C,D).
+          correct_answers: []  # List of correct answers
+          answer_type: "Type of answer (e.g., open, multiple-choice)"  # Expected answer format
+          image_name: "Name of the image file (if any)"  # Name of the image file, if applicable
+
+    # Test 2
+    - sys_msg: ""
+      model: ""
+      language: ""
+      test_name: ""
+      test_answer_type: ""
+      test_images_folder: ""
+      questions:
+        - question: ""
+          question_type: ""
+          answer_options: ""
+          answer_instructions: ""
+          possible_answers: []
+          correct_answers: []
+          answer_type: ""
+          image_name: ""
+
+    # Test n
+
+test_collection_2:
+  description: ""
+  tests: 
+    # test 1
+
+  ... idem
